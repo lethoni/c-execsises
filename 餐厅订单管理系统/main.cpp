@@ -20,9 +20,9 @@ int main()
     Seller s;
     string psd;
     int choose;
-    //ÏÔÊ¾²Ëµ¥
+    //æ˜¾ç¤ºèœå•
     mainControlMenu();
-    //Ñ¡Ôñ²Ëµ¥
+    //é€‰æ‹©èœå•
     while(cin>>choose)
     {
         switch(choose)
@@ -44,7 +44,7 @@ int main()
 	return 0;
 }
 
-//Âô¼Ò¿ØÖÆ
+//å–å®¶æ§åˆ¶
 void sellerMode()
 {
     vector<Menu> mu;
@@ -52,7 +52,7 @@ void sellerMode()
     Seller s;
     string psd, cpsd;
     int choose;
-    //ÏÔÊ¾²Ëµ¥
+    //æ˜¾ç¤ºèœå•
     sellerControlMenu();
     while(cin>>choose)
     {
@@ -91,7 +91,7 @@ void sellerMode()
     }
 }
 
-//¹Ë¿Í¿ØÖÆ
+//é¡¾å®¢æ§åˆ¶
 void buyerMode()
 {
     vector<Menu> mu;
@@ -99,7 +99,7 @@ void buyerMode()
     Buyer b;
     string psd, cpsd;
     int choose;
-    //ÏÔÊ¾²Ëµ¥
+    //æ˜¾ç¤ºèœå•
     buyerControlMenu();
     while(cin>>choose)
     {
@@ -123,7 +123,7 @@ void buyerMode()
     }
 }
 
-//Ö÷ÏÔÊ¾²Ëµ¥
+//ä¸»æ˜¾ç¤ºèœå•
 void mainControlMenu()
 {
     cout<<endl;
@@ -139,7 +139,7 @@ void mainControlMenu()
     cout<<"\n"<<"Please choose the mode : ";
 }
 
-//Âô¼ÒÏÔÊ¾²Ëµ¥
+//å–å®¶æ˜¾ç¤ºèœå•
 void sellerControlMenu()
 {
     cout<<endl;
@@ -163,7 +163,7 @@ void sellerControlMenu()
     cout<<"\n"<<"Please select the function : ";
 }
 
-//¹Ë¿ÍÏÔÊ¾²Ëµ¥
+//é¡¾å®¢æ˜¾ç¤ºèœå•
 void buyerControlMenu()
 {
     cout<<endl;
