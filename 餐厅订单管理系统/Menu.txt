@@ -1,0 +1,8 @@
+002 pig 22
+019 banana 14.4
+004 egg 1.5
+038 dog 34.5
+039 cat 12.9
+088 fish 58.5
+098 tea 10
+022 hotdog 15.3
